@@ -1,4 +1,6 @@
 // TODO: Fix the compiler error on this function.
+#[allow(unused)]
+
 fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"

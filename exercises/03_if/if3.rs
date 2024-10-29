@@ -1,3 +1,4 @@
+#[allow(unused)]
 fn animal_habitat(animal: &str) -> &str {
     // TODO: Fix the compiler error in the statement below.
     let identifier = if animal == "crab" {
